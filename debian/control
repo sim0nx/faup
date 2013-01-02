@@ -1,0 +1,46 @@
+Source: faup
+Section: utils
+Priority: optional
+Maintainer: Georges Toth <georges@trypill.org>
+Build-Depends: debhelper (>= 7.0.50~), cmake
+Standards-Version: 3.8.4
+Homepage: https://github.com/stricaud/faup
+Vcs-Git: git://github.com/stricaud/faup.git
+Vcs-Browser: https://github.com/stricaud/faup
+
+
+Package: libfaup
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Fast URL decoder library
+  Faup: Finally an url parser! Library and Tools
+  The Faup Library provides:
+    * A static library you can embed in your software (faup_static)
+    * A dynamic library you can get along with (faupl)
+    * A command line tool you can use to extract various parts of a url (faup)
+
+
+Package: faup
+Section: utils
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libfaup
+Description: Fast URL decoder library
+  Faup: Finally an url parser! Library and Tools
+  The Faup Library provides:
+    * A static library you can embed in your software (faup_static)
+    * A dynamic library you can get along with (faupl)
+    * A command line tool you can use to extract various parts of a url (faup)
+
+
+Package: python-faup
+Section: python
+Architecture: all
+Depends: ${python:Depends}, libfaup
+Provides: ${python:Provides}
+Description: Fast URL decoder library
+  Faup: Finally an url parser! Library and Tools
+  The Faup Library provides:
+    * A static library you can embed in your software (faup_static)
+    * A dynamic library you can get along with (faupl)
+    * A command line tool you can use to extract various parts of a url (faup)

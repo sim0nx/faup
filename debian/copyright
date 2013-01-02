@@ -1,0 +1,38 @@
+This work was packaged for Debian by:
+
+    Georges Toth <georges@trypill.org> on Wed, 02 Jan 2013 15:35:53 +0100
+
+It was downloaded from:
+
+    https://github.com/stricaud/faup
+
+Upstream Author(s):
+
+    Sebastien Tricaud <sebastien@honeynet.org>
+
+Copyright:
+
+    Copyright (C) 2012 Sebastien Tricaud
+
+License:
+
+    DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+    Version 2, December 2004
+    
+    Copyright (C) 2012 Sebastien Tricaud <sebastien@honeynet.org>
+    
+    Everyone is permitted to copy and distribute verbatim or modified
+    copies of this license document, and changing it is allowed as long
+    as the name is changed.
+    
+    DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+    TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+    
+    0. You just DO WHAT THE FUCK YOU WANT TO.
+
+The Debian packaging is:
+
+    Copyright (C) 2013 Georges Toth <georges@trypill.org>
+
+and is licensed under the GPL version 3,
+see "/usr/share/common-licenses/GPL-3".
